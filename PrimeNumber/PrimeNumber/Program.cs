@@ -10,7 +10,7 @@ namespace PrimeNumber
     {
         static void Main(string[] args)
         {
-            String a;
+            string a;
             Console.WriteLine("> Set \"from\" \"to\" range.");
             do
             {
