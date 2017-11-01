@@ -263,3 +263,4 @@ __pycache__/
 *.config
 *.csproj
 *.sln
+/DirHash/DirHash/Properties/AssemblyInfo.cs
