@@ -152,8 +152,7 @@ namespace PrimeNumber
                 task.Start();
             }
 
-            foreach (Task task in tasks)
-                task.Wait();
+            Task.WaitAll(tasks.ToArray());
 
             return amount;
         }
